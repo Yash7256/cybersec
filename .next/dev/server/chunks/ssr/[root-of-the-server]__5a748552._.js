@@ -8,8 +8,6 @@ module.exports = mod;
 "[project]/CyberSec-Main/pages/index.js [ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-return __turbopack_context__.a(async (__turbopack_handle_async_dependencies__, __turbopack_async_result__) => { try {
-
 __turbopack_context__.s([
     "default",
     ()=>Home
@@ -19,14 +17,12 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$CyberSec$2d$Main$2f$node_mod
 var __TURBOPACK__imported__module__$5b$project$5d2f$CyberSec$2d$Main$2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/CyberSec-Main/node_modules/next/image.js [ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$CyberSec$2d$Main$2f$node_modules$2f$next$2f$dynamic$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/CyberSec-Main/node_modules/next/dynamic.js [ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/react [external] (react, cjs)");
-var __TURBOPACK__imported__module__$5b$externals$5d2f$framer$2d$motion__$5b$external$5d$__$28$framer$2d$motion$2c$__esm_import$2c$__$5b$project$5d2f$CyberSec$2d$Main$2f$node_modules$2f$framer$2d$motion$29$__ = __turbopack_context__.i("[externals]/framer-motion [external] (framer-motion, esm_import, [project]/CyberSec-Main/node_modules/framer-motion)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$CyberSec$2d$Main$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$dom$2f$motion$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/CyberSec-Main/node_modules/framer-motion/dist/es/render/dom/motion.mjs [ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$CyberSec$2d$Main$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$scroll$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/CyberSec-Main/node_modules/framer-motion/dist/es/value/use-scroll.mjs [ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$CyberSec$2d$Main$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$transform$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/CyberSec-Main/node_modules/framer-motion/dist/es/value/use-transform.mjs [ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$CyberSec$2d$Main$2f$node_modules$2f$react$2d$icons$2f$hi2$2f$index$2e$esm$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/CyberSec-Main/node_modules/react-icons/hi2/index.esm.js [ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$CyberSec$2d$Main$2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$esm$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/CyberSec-Main/node_modules/react-icons/fi/index.esm.js [ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$CyberSec$2d$Main$2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$esm$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/CyberSec-Main/node_modules/react-icons/fa/index.esm.js [ssr] (ecmascript)");
-var __turbopack_async_dependencies__ = __turbopack_handle_async_dependencies__([
-    __TURBOPACK__imported__module__$5b$externals$5d2f$framer$2d$motion__$5b$external$5d$__$28$framer$2d$motion$2c$__esm_import$2c$__$5b$project$5d2f$CyberSec$2d$Main$2f$node_modules$2f$framer$2d$motion$29$__
-]);
-[__TURBOPACK__imported__module__$5b$externals$5d2f$framer$2d$motion__$5b$external$5d$__$28$framer$2d$motion$2c$__esm_import$2c$__$5b$project$5d2f$CyberSec$2d$Main$2f$node_modules$2f$framer$2d$motion$29$__] = __turbopack_async_dependencies__.then ? (await __turbopack_async_dependencies__)() : __turbopack_async_dependencies__;
 ;
 ;
 ;
@@ -36,15 +32,6 @@ var __turbopack_async_dependencies__ = __turbopack_handle_async_dependencies__([
 ;
 ;
 ;
-;
-const DotScreenShader = (0, __TURBOPACK__imported__module__$5b$project$5d2f$CyberSec$2d$Main$2f$node_modules$2f$next$2f$dynamic$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"])(()=>__turbopack_context__.A("[project]/CyberSec-Main/components/ui/dot-shader-background.tsx [ssr] (ecmascript, next/dynamic entry, async loader)").then((mod)=>mod.DotScreenShader), {
-    loadableGenerated: {
-        modules: [
-            "[project]/CyberSec-Main/components/ui/dot-shader-background.tsx [client] (ecmascript, next/dynamic entry)"
-        ]
-    },
-    ssr: false
-});
 // Navigation links
 const navItems = [
     {
@@ -288,7 +275,7 @@ const terminalLines = [
     '[ok] Report generated: report_2024-12-03.json'
 ];
 // Section fade-in helper
-const FadeIn = ({ children, delay = 0 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$externals$5d2f$framer$2d$motion__$5b$external$5d$__$28$framer$2d$motion$2c$__esm_import$2c$__$5b$project$5d2f$CyberSec$2d$Main$2f$node_modules$2f$framer$2d$motion$29$__["motion"].div, {
+const FadeIn = ({ children, delay = 0 })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$CyberSec$2d$Main$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$dom$2f$motion$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
         initial: {
             opacity: 0,
             y: 24
@@ -308,7 +295,7 @@ const FadeIn = ({ children, delay = 0 })=>/*#__PURE__*/ (0, __TURBOPACK__importe
         children: children
     }, void 0, false, {
         fileName: "[project]/CyberSec-Main/pages/index.js",
-        lineNumber: 225,
+        lineNumber: 220,
         columnNumber: 3
     }, ("TURBOPACK compile-time value", void 0));
 // Terminal typing animation
@@ -350,13 +337,13 @@ const Typewriter = ({ lines, speed = 24, pause = 600 })=>{
                 children: "|"
             }, void 0, false, {
                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                lineNumber: 265,
+                lineNumber: 260,
                 columnNumber: 36
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/CyberSec-Main/pages/index.js",
-        lineNumber: 263,
+        lineNumber: 258,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -409,7 +396,7 @@ const CountUp = ({ value, suffix = '', prefix = '', decimals = 0 })=>{
         ]
     }, void 0, true, {
         fileName: "[project]/CyberSec-Main/pages/index.js",
-        lineNumber: 316,
+        lineNumber: 311,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -419,15 +406,15 @@ function Home() {
     const [scrolled, setScrolled] = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useState"])(false);
     const [billing, setBilling] = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useState"])('monthly');
     // Scroll-based parallax for hero glows
-    const { scrollY } = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$framer$2d$motion__$5b$external$5d$__$28$framer$2d$motion$2c$__esm_import$2c$__$5b$project$5d2f$CyberSec$2d$Main$2f$node_modules$2f$framer$2d$motion$29$__["useScroll"])();
-    const heroParallax = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$framer$2d$motion__$5b$external$5d$__$28$framer$2d$motion$2c$__esm_import$2c$__$5b$project$5d2f$CyberSec$2d$Main$2f$node_modules$2f$framer$2d$motion$29$__["useTransform"])(scrollY, [
+    const { scrollY } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$CyberSec$2d$Main$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$scroll$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["useScroll"])();
+    const heroParallax = (0, __TURBOPACK__imported__module__$5b$project$5d2f$CyberSec$2d$Main$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$transform$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["useTransform"])(scrollY, [
         0,
         600
     ], [
         0,
         -120
     ]);
-    const heroGlow = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$framer$2d$motion__$5b$external$5d$__$28$framer$2d$motion$2c$__esm_import$2c$__$5b$project$5d2f$CyberSec$2d$Main$2f$node_modules$2f$framer$2d$motion$29$__["useTransform"])(scrollY, [
+    const heroGlow = (0, __TURBOPACK__imported__module__$5b$project$5d2f$CyberSec$2d$Main$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$transform$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["useTransform"])(scrollY, [
         0,
         600
     ], [
@@ -465,7 +452,7 @@ function Home() {
                         children: "CyberSec"
                     }, void 0, false, {
                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                        lineNumber: 354,
+                        lineNumber: 349,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
@@ -473,7 +460,7 @@ function Home() {
                         content: "A comprehensive cybersecurity ecosystem that unifies all your security tools, AI-powered defenses, and threat intelligence on a single platform. Simplify your security operations while amplifying protection across your entire digital infrastructure."
                     }, void 0, false, {
                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                        lineNumber: 355,
+                        lineNumber: 350,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
@@ -481,7 +468,7 @@ function Home() {
                         content: "width=device-width, initial-scale=1"
                     }, void 0, false, {
                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                        lineNumber: 359,
+                        lineNumber: 354,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
@@ -489,7 +476,7 @@ function Home() {
                         content: "CyberSec"
                     }, void 0, false, {
                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                        lineNumber: 360,
+                        lineNumber: 355,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
@@ -497,7 +484,7 @@ function Home() {
                         content: "Where AI And Security Intelligence Converge"
                     }, void 0, false, {
                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                        lineNumber: 361,
+                        lineNumber: 356,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
@@ -505,7 +492,7 @@ function Home() {
                         content: "website"
                     }, void 0, false, {
                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                        lineNumber: 365,
+                        lineNumber: 360,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
@@ -513,7 +500,7 @@ function Home() {
                         content: "https://cybersec-cli.com"
                     }, void 0, false, {
                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                        lineNumber: 366,
+                        lineNumber: 361,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("link", {
@@ -521,13 +508,13 @@ function Home() {
                         href: "/favicon.ico"
                     }, void 0, false, {
                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                        lineNumber: 367,
+                        lineNumber: 362,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                lineNumber: 353,
+                lineNumber: 348,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -539,14 +526,14 @@ function Home() {
                             className: "absolute inset-0 rounded-[32px] bg-grid opacity-40"
                         }, void 0, false, {
                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                            lineNumber: 375,
+                            lineNumber: 370,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                             className: "absolute inset-0 rounded-[32px] bg-dots opacity-30 animate-glow"
                         }, void 0, false, {
                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                            lineNumber: 376,
+                            lineNumber: 371,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -570,17 +557,17 @@ function Home() {
                                                             height: 200
                                                         }, void 0, false, {
                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                            lineNumber: 387,
+                                                            lineNumber: 382,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                        lineNumber: 386,
+                                                        lineNumber: 381,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                    lineNumber: 385,
+                                                    lineNumber: 380,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -595,12 +582,12 @@ function Home() {
                                                             children: item.label
                                                         }, item.label, false, {
                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                            lineNumber: 393,
+                                                            lineNumber: 388,
                                                             columnNumber: 21
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                    lineNumber: 391,
+                                                    lineNumber: 386,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -612,7 +599,7 @@ function Home() {
                                                             children: "Dashboard"
                                                         }, void 0, false, {
                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                            lineNumber: 405,
+                                                            lineNumber: 400,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
@@ -621,13 +608,13 @@ function Home() {
                                                             children: "Get Started"
                                                         }, void 0, false, {
                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                            lineNumber: 411,
+                                                            lineNumber: 406,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                    lineNumber: 404,
+                                                    lineNumber: 399,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
@@ -641,24 +628,24 @@ function Home() {
                                                         className: "h-6 w-6"
                                                     }, void 0, false, {
                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                        lineNumber: 427,
+                                                        lineNumber: 422,
                                                         columnNumber: 31
                                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$CyberSec$2d$Main$2f$node_modules$2f$react$2d$icons$2f$hi2$2f$index$2e$esm$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["HiBars3"], {
                                                         className: "h-6 w-6"
                                                     }, void 0, false, {
                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                        lineNumber: 427,
+                                                        lineNumber: 422,
                                                         columnNumber: 65
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                    lineNumber: 419,
+                                                    lineNumber: 414,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                            lineNumber: 384,
+                                            lineNumber: 379,
                                             columnNumber: 15
                                         }, this),
                                         menuOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -677,7 +664,7 @@ function Home() {
                                                             children: item.label
                                                         }, item.label, false, {
                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                            lineNumber: 435,
+                                                            lineNumber: 430,
                                                             columnNumber: 23
                                                         }, this)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -689,7 +676,7 @@ function Home() {
                                                                 children: "Dashboard"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                lineNumber: 445,
+                                                                lineNumber: 440,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
@@ -698,30 +685,30 @@ function Home() {
                                                                 children: "Get Started"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                lineNumber: 448,
+                                                                lineNumber: 443,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                        lineNumber: 444,
+                                                        lineNumber: 439,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                lineNumber: 433,
+                                                lineNumber: 428,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                            lineNumber: 432,
+                                            lineNumber: 427,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                    lineNumber: 379,
+                                    lineNumber: 374,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("main", {
@@ -734,34 +721,36 @@ function Home() {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                                     className: "absolute inset-0 -z-10 opacity-70 pointer-events-none",
                                                     "aria-hidden": "true",
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(DotScreenShader, {}, void 0, false, {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                        className: "fixed inset-0 bg-gradient-to-br from-slate-900 via-purple-900/20 to-slate-900"
+                                                    }, void 0, false, {
                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                        lineNumber: 461,
+                                                        lineNumber: 456,
                                                         columnNumber: 13
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                    lineNumber: 460,
+                                                    lineNumber: 455,
                                                     columnNumber: 11
                                                 }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$externals$5d2f$framer$2d$motion__$5b$external$5d$__$28$framer$2d$motion$2c$__esm_import$2c$__$5b$project$5d2f$CyberSec$2d$Main$2f$node_modules$2f$framer$2d$motion$29$__["motion"].div, {
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$CyberSec$2d$Main$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$dom$2f$motion$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                                                     style: {
                                                         y: heroParallax
                                                     },
                                                     className: "absolute -top-32 -right-32 h-72 w-72 bg-hero-radial blur-3xl"
                                                 }, void 0, false, {
                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                    lineNumber: 463,
+                                                    lineNumber: 458,
                                                     columnNumber: 11
                                                 }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$externals$5d2f$framer$2d$motion__$5b$external$5d$__$28$framer$2d$motion$2c$__esm_import$2c$__$5b$project$5d2f$CyberSec$2d$Main$2f$node_modules$2f$framer$2d$motion$29$__["motion"].div, {
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$CyberSec$2d$Main$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$dom$2f$motion$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                                                     style: {
                                                         y: heroGlow
                                                     },
                                                     className: "absolute -bottom-40 -left-40 h-72 w-72 bg-glow-ring blur-3xl"
                                                 }, void 0, false, {
                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                    lineNumber: 464,
+                                                    lineNumber: 459,
                                                     columnNumber: 11
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -780,13 +769,13 @@ function Home() {
                                                                                 children: "Converge."
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                                lineNumber: 471,
+                                                                                lineNumber: 466,
                                                                                 columnNumber: 54
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                        lineNumber: 470,
+                                                                        lineNumber: 465,
                                                                         columnNumber: 15
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -794,18 +783,18 @@ function Home() {
                                                                         children: "Unified cybersecurity ecosystem bringing all your tools, AI-powered defenses, and threat intelligence into one powerful platform."
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                        lineNumber: 473,
+                                                                        lineNumber: 468,
                                                                         columnNumber: 17
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                lineNumber: 468,
+                                                                lineNumber: 463,
                                                                 columnNumber: 15
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                            lineNumber: 467,
+                                                            lineNumber: 462,
                                                             columnNumber: 13
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(FadeIn, {
@@ -820,7 +809,7 @@ function Home() {
                                                                                 children: "Terminal Preview"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                                lineNumber: 483,
+                                                                                lineNumber: 478,
                                                                                 columnNumber: 19
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
@@ -830,33 +819,33 @@ function Home() {
                                                                                         className: "h-2 w-2 rounded-full bg-cyberPurple"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                                        lineNumber: 485,
+                                                                                        lineNumber: 480,
                                                                                         columnNumber: 21
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
                                                                                         className: "h-2 w-2 rounded-full bg-cyberBlue"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                                        lineNumber: 486,
+                                                                                        lineNumber: 481,
                                                                                         columnNumber: 21
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
                                                                                         className: "h-2 w-2 rounded-full bg-cyberCyan"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                                        lineNumber: 487,
+                                                                                        lineNumber: 482,
                                                                                         columnNumber: 21
                                                                                     }, this)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                                lineNumber: 484,
+                                                                                lineNumber: 479,
                                                                                 columnNumber: 19
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                        lineNumber: 482,
+                                                                        lineNumber: 477,
                                                                         columnNumber: 17
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -866,50 +855,50 @@ function Home() {
                                                                                 className: "absolute inset-x-0 top-0 h-20 bg-gradient-to-b from-white/5 to-transparent"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                                lineNumber: 491,
+                                                                                lineNumber: 486,
                                                                                 columnNumber: 19
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(Typewriter, {
                                                                                 lines: terminalLines
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                                lineNumber: 492,
+                                                                                lineNumber: 487,
                                                                                 columnNumber: 19
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                                                                 className: "absolute -bottom-10 left-0 right-0 h-20 bg-gradient-to-t from-cyan-500/10 to-transparent"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                                lineNumber: 493,
+                                                                                lineNumber: 488,
                                                                                 columnNumber: 19
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                        lineNumber: 490,
+                                                                        lineNumber: 485,
                                                                         columnNumber: 17
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                lineNumber: 481,
+                                                                lineNumber: 476,
                                                                 columnNumber: 15
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                            lineNumber: 480,
+                                                            lineNumber: 475,
                                                             columnNumber: 13
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                    lineNumber: 466,
+                                                    lineNumber: 461,
                                                     columnNumber: 11
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                            lineNumber: 459,
+                                            lineNumber: 454,
                                             columnNumber: 9
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
@@ -925,7 +914,7 @@ function Home() {
                                                                 children: "Features"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                lineNumber: 505,
+                                                                lineNumber: 500,
                                                                 columnNumber: 15
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
@@ -933,18 +922,18 @@ function Home() {
                                                                 children: "Built for Modern Security Teams"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                lineNumber: 506,
+                                                                lineNumber: 501,
                                                                 columnNumber: 15
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                        lineNumber: 504,
+                                                        lineNumber: 499,
                                                         columnNumber: 13
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                    lineNumber: 503,
+                                                    lineNumber: 498,
                                                     columnNumber: 11
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -960,7 +949,7 @@ function Home() {
                                                                         className: "h-8 w-8 text-cyberPurple mb-4"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                        lineNumber: 515,
+                                                                        lineNumber: 510,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
@@ -968,7 +957,7 @@ function Home() {
                                                                         children: feature.title
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                        lineNumber: 516,
+                                                                        lineNumber: 511,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -976,7 +965,7 @@ function Home() {
                                                                         children: feature.description
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                        lineNumber: 517,
+                                                                        lineNumber: 512,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
@@ -986,36 +975,36 @@ function Home() {
                                                                             "Learn more ",
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$CyberSec$2d$Main$2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$esm$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["FiArrowRight"], {}, void 0, false, {
                                                                                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                                lineNumber: 519,
+                                                                                lineNumber: 514,
                                                                                 columnNumber: 34
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                        lineNumber: 518,
+                                                                        lineNumber: 513,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                lineNumber: 514,
+                                                                lineNumber: 509,
                                                                 columnNumber: 19
                                                             }, this)
                                                         }, feature.title, false, {
                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                            lineNumber: 513,
+                                                            lineNumber: 508,
                                                             columnNumber: 17
                                                         }, this);
                                                     })
                                                 }, void 0, false, {
                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                    lineNumber: 509,
+                                                    lineNumber: 504,
                                                     columnNumber: 11
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                            lineNumber: 502,
+                                            lineNumber: 497,
                                             columnNumber: 9
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
@@ -1031,7 +1020,7 @@ function Home() {
                                                                 children: "Workflow"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                lineNumber: 532,
+                                                                lineNumber: 527,
                                                                 columnNumber: 15
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
@@ -1039,18 +1028,18 @@ function Home() {
                                                                 children: "Security Scanning in 3 Simple Steps"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                lineNumber: 533,
+                                                                lineNumber: 528,
                                                                 columnNumber: 15
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                        lineNumber: 531,
+                                                        lineNumber: 526,
                                                         columnNumber: 13
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                    lineNumber: 530,
+                                                    lineNumber: 525,
                                                     columnNumber: 11
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1060,7 +1049,7 @@ function Home() {
                                                             className: "hidden lg:block absolute top-10 left-12 right-12 h-px bg-gradient-to-r from-transparent via-purple-500/60 to-transparent"
                                                         }, void 0, false, {
                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                            lineNumber: 537,
+                                                            lineNumber: 532,
                                                             columnNumber: 13
                                                         }, this),
                                                         steps.map((step, index)=>{
@@ -1075,14 +1064,14 @@ function Home() {
                                                                             children: index + 1
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                            lineNumber: 543,
+                                                                            lineNumber: 538,
                                                                             columnNumber: 21
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(Icon, {
                                                                             className: "h-8 w-8 text-cyberCyan mx-auto mt-4"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                            lineNumber: 546,
+                                                                            lineNumber: 541,
                                                                             columnNumber: 21
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
@@ -1090,7 +1079,7 @@ function Home() {
                                                                             children: step.title
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                            lineNumber: 547,
+                                                                            lineNumber: 542,
                                                                             columnNumber: 21
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1098,38 +1087,38 @@ function Home() {
                                                                             children: step.description
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                            lineNumber: 548,
+                                                                            lineNumber: 543,
                                                                             columnNumber: 21
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                                                             className: "mt-4 h-24 rounded-xl border border-white/10 bg-gradient-to-br from-purple-500/20 via-transparent to-cyan-500/20 animate-pulse"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                            lineNumber: 549,
+                                                                            lineNumber: 544,
                                                                             columnNumber: 21
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 542,
+                                                                    lineNumber: 537,
                                                                     columnNumber: 19
                                                                 }, this)
                                                             }, step.title, false, {
                                                                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                lineNumber: 541,
+                                                                lineNumber: 536,
                                                                 columnNumber: 17
                                                             }, this);
                                                         })
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                    lineNumber: 536,
+                                                    lineNumber: 531,
                                                     columnNumber: 11
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                            lineNumber: 529,
+                                            lineNumber: 524,
                                             columnNumber: 9
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
@@ -1146,7 +1135,7 @@ function Home() {
                                                                     children: "Live Demo"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 562,
+                                                                    lineNumber: 557,
                                                                     columnNumber: 17
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
@@ -1154,7 +1143,7 @@ function Home() {
                                                                     children: "Watch the CLI in action"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 563,
+                                                                    lineNumber: 558,
                                                                     columnNumber: 17
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1162,7 +1151,7 @@ function Home() {
                                                                     children: "Experience the speed of CyberSec-CLI. Scan targets, stream results, and receive AI insights in real time."
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 564,
+                                                                    lineNumber: 559,
                                                                     columnNumber: 17
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
@@ -1171,19 +1160,19 @@ function Home() {
                                                                         "Try Interactive Demo ",
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$CyberSec$2d$Main$2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$esm$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["FiArrowRight"], {}, void 0, false, {
                                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                            lineNumber: 568,
+                                                                            lineNumber: 563,
                                                                             columnNumber: 40
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 567,
+                                                                    lineNumber: 562,
                                                                     columnNumber: 17
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                            lineNumber: 561,
+                                                            lineNumber: 556,
                                                             columnNumber: 15
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1193,7 +1182,7 @@ function Home() {
                                                                     className: "absolute inset-0 bg-gradient-to-br from-purple-500/10 via-transparent to-cyan-500/10"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 572,
+                                                                    lineNumber: 567,
                                                                     columnNumber: 17
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1204,34 +1193,34 @@ function Home() {
                                                                         pause: 420
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                        lineNumber: 574,
+                                                                        lineNumber: 569,
                                                                         columnNumber: 19
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 573,
+                                                                    lineNumber: 568,
                                                                     columnNumber: 17
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                            lineNumber: 571,
+                                                            lineNumber: 566,
                                                             columnNumber: 15
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                    lineNumber: 560,
+                                                    lineNumber: 555,
                                                     columnNumber: 13
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                lineNumber: 559,
+                                                lineNumber: 554,
                                                 columnNumber: 11
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                            lineNumber: 558,
+                                            lineNumber: 553,
                                             columnNumber: 9
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
@@ -1247,7 +1236,7 @@ function Home() {
                                                                 children: "Use Cases"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                lineNumber: 585,
+                                                                lineNumber: 580,
                                                                 columnNumber: 15
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
@@ -1255,18 +1244,18 @@ function Home() {
                                                                 children: "Trusted by Security Professionals"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                lineNumber: 586,
+                                                                lineNumber: 581,
                                                                 columnNumber: 15
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                        lineNumber: 584,
+                                                        lineNumber: 579,
                                                         columnNumber: 13
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                    lineNumber: 583,
+                                                    lineNumber: 578,
                                                     columnNumber: 11
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1282,7 +1271,7 @@ function Home() {
                                                                         className: "h-8 w-8 text-cyberCyan"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                        lineNumber: 595,
+                                                                        lineNumber: 590,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
@@ -1290,7 +1279,7 @@ function Home() {
                                                                         children: useCase.title
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                        lineNumber: 596,
+                                                                        lineNumber: 591,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1298,30 +1287,30 @@ function Home() {
                                                                         children: useCase.description
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                        lineNumber: 597,
+                                                                        lineNumber: 592,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                lineNumber: 594,
+                                                                lineNumber: 589,
                                                                 columnNumber: 19
                                                             }, this)
                                                         }, useCase.title, false, {
                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                            lineNumber: 593,
+                                                            lineNumber: 588,
                                                             columnNumber: 17
                                                         }, this);
                                                     })
                                                 }, void 0, false, {
                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                    lineNumber: 589,
+                                                    lineNumber: 584,
                                                     columnNumber: 11
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                            lineNumber: 582,
+                                            lineNumber: 577,
                                             columnNumber: 9
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
@@ -1337,7 +1326,7 @@ function Home() {
                                                                 children: "Pricing"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                lineNumber: 609,
+                                                                lineNumber: 604,
                                                                 columnNumber: 15
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
@@ -1345,18 +1334,18 @@ function Home() {
                                                                 children: "Choose Your Plan"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                lineNumber: 610,
+                                                                lineNumber: 605,
                                                                 columnNumber: 15
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                        lineNumber: 608,
+                                                        lineNumber: 603,
                                                         columnNumber: 13
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                    lineNumber: 607,
+                                                    lineNumber: 602,
                                                     columnNumber: 11
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1367,7 +1356,7 @@ function Home() {
                                                             children: "Monthly"
                                                         }, void 0, false, {
                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                            lineNumber: 615,
+                                                            lineNumber: 610,
                                                             columnNumber: 13
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
@@ -1379,12 +1368,12 @@ function Home() {
                                                                 className: `absolute top-0.5 h-5 w-5 rounded-full bg-purple-blue transition-transform ${billing === 'annual' ? 'translate-x-7' : 'translate-x-1'}`
                                                             }, void 0, false, {
                                                                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                lineNumber: 622,
+                                                                lineNumber: 617,
                                                                 columnNumber: 15
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                            lineNumber: 616,
+                                                            lineNumber: 611,
                                                             columnNumber: 13
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
@@ -1396,19 +1385,19 @@ function Home() {
                                                                     children: "(save 20%)"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 629,
+                                                                    lineNumber: 624,
                                                                     columnNumber: 22
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                            lineNumber: 628,
+                                                            lineNumber: 623,
                                                             columnNumber: 13
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                    lineNumber: 614,
+                                                    lineNumber: 609,
                                                     columnNumber: 11
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1425,7 +1414,7 @@ function Home() {
                                                                             children: "Most Popular"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                            lineNumber: 643,
+                                                                            lineNumber: 638,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
@@ -1433,7 +1422,7 @@ function Home() {
                                                                             children: plan.name
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                            lineNumber: 645,
+                                                                            lineNumber: 640,
                                                                             columnNumber: 21
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1441,7 +1430,7 @@ function Home() {
                                                                             children: plan.description
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                            lineNumber: 646,
+                                                                            lineNumber: 641,
                                                                             columnNumber: 21
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1452,7 +1441,7 @@ function Home() {
                                                                                     children: "Custom"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                                    lineNumber: 649,
+                                                                                    lineNumber: 644,
                                                                                     columnNumber: 25
                                                                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
                                                                                     className: "text-3xl font-heading",
@@ -1464,13 +1453,13 @@ function Home() {
                                                                                             children: "/month"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                                            lineNumber: 653,
+                                                                                            lineNumber: 648,
                                                                                             columnNumber: 27
                                                                                         }, this)
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                                    lineNumber: 651,
+                                                                                    lineNumber: 646,
                                                                                     columnNumber: 25
                                                                                 }, this),
                                                                                 billing === 'annual' && plan.price !== null && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1478,13 +1467,13 @@ function Home() {
                                                                                     children: "Billed annually"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                                    lineNumber: 657,
+                                                                                    lineNumber: 652,
                                                                                     columnNumber: 25
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                            lineNumber: 647,
+                                                                            lineNumber: 642,
                                                                             columnNumber: 21
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("ul", {
@@ -1496,19 +1485,19 @@ function Home() {
                                                                                             className: "h-5 w-5 text-cyan-300"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                                            lineNumber: 663,
+                                                                                            lineNumber: 658,
                                                                                             columnNumber: 27
                                                                                         }, this),
                                                                                         feature
                                                                                     ]
                                                                                 }, feature, true, {
                                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                                    lineNumber: 662,
+                                                                                    lineNumber: 657,
                                                                                     columnNumber: 25
                                                                                 }, this))
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                            lineNumber: 660,
+                                                                            lineNumber: 655,
                                                                             columnNumber: 21
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
@@ -1516,34 +1505,34 @@ function Home() {
                                                                             children: plan.cta
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                            lineNumber: 668,
+                                                                            lineNumber: 663,
                                                                             columnNumber: 21
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 641,
+                                                                    lineNumber: 636,
                                                                     columnNumber: 19
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                lineNumber: 636,
+                                                                lineNumber: 631,
                                                                 columnNumber: 17
                                                             }, this)
                                                         }, plan.name, false, {
                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                            lineNumber: 635,
+                                                            lineNumber: 630,
                                                             columnNumber: 15
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                    lineNumber: 633,
+                                                    lineNumber: 628,
                                                     columnNumber: 11
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                            lineNumber: 606,
+                                            lineNumber: 601,
                                             columnNumber: 9
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
@@ -1560,7 +1549,7 @@ function Home() {
                                                                     children: "Docs"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 689,
+                                                                    lineNumber: 684,
                                                                     columnNumber: 17
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
@@ -1568,7 +1557,7 @@ function Home() {
                                                                     children: "Documentation built for teams"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 690,
+                                                                    lineNumber: 685,
                                                                     columnNumber: 17
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1576,13 +1565,13 @@ function Home() {
                                                                     children: "Get started in minutes with clear guides, quickstart snippets, and deployment recipes for every stack."
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 691,
+                                                                    lineNumber: 686,
                                                                     columnNumber: 17
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                            lineNumber: 688,
+                                                            lineNumber: 683,
                                                             columnNumber: 15
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1594,7 +1583,7 @@ function Home() {
                                                                     children: "API & SDKs"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 696,
+                                                                    lineNumber: 691,
                                                                     columnNumber: 17
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1602,7 +1591,7 @@ function Home() {
                                                                     children: "Launch automated scans, stream results, and integrate insights into your workflows using REST and WebSocket APIs."
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 697,
+                                                                    lineNumber: 692,
                                                                     columnNumber: 17
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
@@ -1612,35 +1601,35 @@ function Home() {
                                                                         "Explore API Docs ",
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$CyberSec$2d$Main$2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$esm$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["FiExternalLink"], {}, void 0, false, {
                                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                            lineNumber: 701,
+                                                                            lineNumber: 696,
                                                                             columnNumber: 36
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 700,
+                                                                    lineNumber: 695,
                                                                     columnNumber: 17
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                            lineNumber: 695,
+                                                            lineNumber: 690,
                                                             columnNumber: 15
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                    lineNumber: 687,
+                                                    lineNumber: 682,
                                                     columnNumber: 13
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                lineNumber: 686,
+                                                lineNumber: 681,
                                                 columnNumber: 11
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                            lineNumber: 685,
+                                            lineNumber: 680,
                                             columnNumber: 9
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
@@ -1656,7 +1645,7 @@ function Home() {
                                                                 children: "Infrastructure"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                lineNumber: 712,
+                                                                lineNumber: 707,
                                                                 columnNumber: 15
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
@@ -1664,18 +1653,18 @@ function Home() {
                                                                 children: "Built on Modern, Secure Infrastructure"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                lineNumber: 713,
+                                                                lineNumber: 708,
                                                                 columnNumber: 15
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                        lineNumber: 711,
+                                                        lineNumber: 706,
                                                         columnNumber: 13
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                    lineNumber: 710,
+                                                    lineNumber: 705,
                                                     columnNumber: 11
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1689,7 +1678,7 @@ function Home() {
                                                                     children: "Technology Stack"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 718,
+                                                                    lineNumber: 713,
                                                                     columnNumber: 15
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1699,12 +1688,12 @@ function Home() {
                                                                             children: tech
                                                                         }, tech, false, {
                                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                            lineNumber: 721,
+                                                                            lineNumber: 716,
                                                                             columnNumber: 19
                                                                         }, this))
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 719,
+                                                                    lineNumber: 714,
                                                                     columnNumber: 15
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1714,18 +1703,18 @@ function Home() {
                                                                             children: badge
                                                                         }, badge, false, {
                                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                            lineNumber: 728,
+                                                                            lineNumber: 723,
                                                                             columnNumber: 19
                                                                         }, this))
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 726,
+                                                                    lineNumber: 721,
                                                                     columnNumber: 15
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                            lineNumber: 717,
+                                                            lineNumber: 712,
                                                             columnNumber: 13
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1738,7 +1727,7 @@ function Home() {
                                                                             children: "Open Source Momentum"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                            lineNumber: 736,
+                                                                            lineNumber: 731,
                                                                             columnNumber: 17
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
@@ -1746,7 +1735,7 @@ function Home() {
                                                                             children: "1.2K stars"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                            lineNumber: 737,
+                                                                            lineNumber: 732,
                                                                             columnNumber: 17
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1754,13 +1743,13 @@ function Home() {
                                                                             children: "Join a thriving GitHub community building secure tooling."
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                            lineNumber: 738,
+                                                                            lineNumber: 733,
                                                                             columnNumber: 17
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 735,
+                                                                    lineNumber: 730,
                                                                     columnNumber: 15
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
@@ -1772,31 +1761,31 @@ function Home() {
                                                                         "Visit GitHub ",
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$CyberSec$2d$Main$2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$esm$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["FiGithub"], {}, void 0, false, {
                                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                            lineNumber: 746,
+                                                                            lineNumber: 741,
                                                                             columnNumber: 30
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 740,
+                                                                    lineNumber: 735,
                                                                     columnNumber: 15
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                            lineNumber: 734,
+                                                            lineNumber: 729,
                                                             columnNumber: 13
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                    lineNumber: 716,
+                                                    lineNumber: 711,
                                                     columnNumber: 11
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                            lineNumber: 709,
+                                            lineNumber: 704,
                                             columnNumber: 9
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
@@ -1817,12 +1806,12 @@ function Home() {
                                                                         decimals: item.decimals || 0
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                        lineNumber: 759,
+                                                                        lineNumber: 754,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 758,
+                                                                    lineNumber: 753,
                                                                     columnNumber: 19
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1830,28 +1819,28 @@ function Home() {
                                                                     children: item.label
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 766,
+                                                                    lineNumber: 761,
                                                                     columnNumber: 19
                                                                 }, this)
                                                             ]
                                                         }, item.label, true, {
                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                            lineNumber: 757,
+                                                            lineNumber: 752,
                                                             columnNumber: 17
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                    lineNumber: 755,
+                                                    lineNumber: 750,
                                                     columnNumber: 13
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                lineNumber: 754,
+                                                lineNumber: 749,
                                                 columnNumber: 11
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                            lineNumber: 753,
+                                            lineNumber: 748,
                                             columnNumber: 9
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
@@ -1867,7 +1856,7 @@ function Home() {
                                                                 children: "FAQ"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                lineNumber: 777,
+                                                                lineNumber: 772,
                                                                 columnNumber: 15
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
@@ -1875,18 +1864,18 @@ function Home() {
                                                                 children: "Frequently Asked Questions"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                lineNumber: 778,
+                                                                lineNumber: 773,
                                                                 columnNumber: 15
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                        lineNumber: 776,
+                                                        lineNumber: 771,
                                                         columnNumber: 13
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                    lineNumber: 775,
+                                                    lineNumber: 770,
                                                     columnNumber: 11
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1896,18 +1885,18 @@ function Home() {
                                                             index: index
                                                         }, faq.question, false, {
                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                            lineNumber: 783,
+                                                            lineNumber: 778,
                                                             columnNumber: 15
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                    lineNumber: 781,
+                                                    lineNumber: 776,
                                                     columnNumber: 11
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                            lineNumber: 774,
+                                            lineNumber: 769,
                                             columnNumber: 9
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
@@ -1922,7 +1911,7 @@ function Home() {
                                                             children: "Ready to Secure Your Infrastructure?"
                                                         }, void 0, false, {
                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                            lineNumber: 792,
+                                                            lineNumber: 787,
                                                             columnNumber: 15
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1930,7 +1919,7 @@ function Home() {
                                                             children: "Join thousands of security professionals using CyberSec-CLI"
                                                         }, void 0, false, {
                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                            lineNumber: 793,
+                                                            lineNumber: 788,
                                                             columnNumber: 15
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
@@ -1940,13 +1929,13 @@ function Home() {
                                                                 "Get Started for Free ",
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$CyberSec$2d$Main$2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$esm$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["FiArrowRight"], {}, void 0, false, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 798,
+                                                                    lineNumber: 793,
                                                                     columnNumber: 38
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                            lineNumber: 794,
+                                                            lineNumber: 789,
                                                             columnNumber: 15
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1954,29 +1943,29 @@ function Home() {
                                                             children: "No credit card required - 5 minute setup"
                                                         }, void 0, false, {
                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                            lineNumber: 800,
+                                                            lineNumber: 795,
                                                             columnNumber: 15
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                    lineNumber: 791,
+                                                    lineNumber: 786,
                                                     columnNumber: 13
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                lineNumber: 790,
+                                                lineNumber: 785,
                                                 columnNumber: 11
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                            lineNumber: 789,
+                                            lineNumber: 784,
                                             columnNumber: 9
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                    lineNumber: 457,
+                                    lineNumber: 452,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("footer", {
@@ -1998,17 +1987,17 @@ function Home() {
                                                                     height: 200
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 812,
+                                                                    lineNumber: 807,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                lineNumber: 811,
+                                                                lineNumber: 806,
                                                                 columnNumber: 21
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                            lineNumber: 810,
+                                                            lineNumber: 805,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -2016,7 +2005,7 @@ function Home() {
                                                             children: "CyberSec-CLI helps teams uncover vulnerabilities faster with AI-powered scanning."
                                                         }, void 0, false, {
                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                            lineNumber: 815,
+                                                            lineNumber: 810,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2028,12 +2017,12 @@ function Home() {
                                                                     "aria-label": "GitHub",
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$CyberSec$2d$Main$2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$esm$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["FiGithub"], {}, void 0, false, {
                                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                        lineNumber: 818,
+                                                                        lineNumber: 813,
                                                                         columnNumber: 23
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 817,
+                                                                    lineNumber: 812,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
@@ -2042,12 +2031,12 @@ function Home() {
                                                                     "aria-label": "Twitter",
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$CyberSec$2d$Main$2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$esm$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["FiTwitter"], {}, void 0, false, {
                                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                        lineNumber: 821,
+                                                                        lineNumber: 816,
                                                                         columnNumber: 23
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 820,
+                                                                    lineNumber: 815,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
@@ -2056,24 +2045,24 @@ function Home() {
                                                                     "aria-label": "Discord",
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$CyberSec$2d$Main$2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$esm$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["FaDiscord"], {}, void 0, false, {
                                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                        lineNumber: 824,
+                                                                        lineNumber: 819,
                                                                         columnNumber: 23
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 823,
+                                                                    lineNumber: 818,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                            lineNumber: 816,
+                                                            lineNumber: 811,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                    lineNumber: 809,
+                                                    lineNumber: 804,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2083,7 +2072,7 @@ function Home() {
                                                             children: "Product"
                                                         }, void 0, false, {
                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                            lineNumber: 829,
+                                                            lineNumber: 824,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("ul", {
@@ -2095,12 +2084,12 @@ function Home() {
                                                                         children: "Features"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                        lineNumber: 831,
+                                                                        lineNumber: 826,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 831,
+                                                                    lineNumber: 826,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -2109,12 +2098,12 @@ function Home() {
                                                                         children: "Pricing"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                        lineNumber: 832,
+                                                                        lineNumber: 827,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 832,
+                                                                    lineNumber: 827,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -2123,12 +2112,12 @@ function Home() {
                                                                         children: "Docs"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                        lineNumber: 833,
+                                                                        lineNumber: 828,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 833,
+                                                                    lineNumber: 828,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -2137,12 +2126,12 @@ function Home() {
                                                                         children: "API"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                        lineNumber: 834,
+                                                                        lineNumber: 829,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 834,
+                                                                    lineNumber: 829,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -2151,24 +2140,24 @@ function Home() {
                                                                         children: "Changelog"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                        lineNumber: 835,
+                                                                        lineNumber: 830,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 835,
+                                                                    lineNumber: 830,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                            lineNumber: 830,
+                                                            lineNumber: 825,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                    lineNumber: 828,
+                                                    lineNumber: 823,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2178,7 +2167,7 @@ function Home() {
                                                             children: "Resources"
                                                         }, void 0, false, {
                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                            lineNumber: 839,
+                                                            lineNumber: 834,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("ul", {
@@ -2190,12 +2179,12 @@ function Home() {
                                                                         children: "Blog"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                        lineNumber: 841,
+                                                                        lineNumber: 836,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 841,
+                                                                    lineNumber: 836,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -2204,12 +2193,12 @@ function Home() {
                                                                         children: "Tutorials"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                        lineNumber: 842,
+                                                                        lineNumber: 837,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 842,
+                                                                    lineNumber: 837,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -2218,12 +2207,12 @@ function Home() {
                                                                         children: "Community"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                        lineNumber: 843,
+                                                                        lineNumber: 838,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 843,
+                                                                    lineNumber: 838,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -2232,24 +2221,24 @@ function Home() {
                                                                         children: "Support"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                        lineNumber: 844,
+                                                                        lineNumber: 839,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 844,
+                                                                    lineNumber: 839,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                            lineNumber: 840,
+                                                            lineNumber: 835,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                    lineNumber: 838,
+                                                    lineNumber: 833,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2259,7 +2248,7 @@ function Home() {
                                                             children: "Legal"
                                                         }, void 0, false, {
                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                            lineNumber: 848,
+                                                            lineNumber: 843,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("ul", {
@@ -2271,12 +2260,12 @@ function Home() {
                                                                         children: "Privacy Policy"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                        lineNumber: 850,
+                                                                        lineNumber: 845,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 850,
+                                                                    lineNumber: 845,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -2285,12 +2274,12 @@ function Home() {
                                                                         children: "Terms of Service"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                        lineNumber: 851,
+                                                                        lineNumber: 846,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 851,
+                                                                    lineNumber: 846,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -2299,18 +2288,18 @@ function Home() {
                                                                         children: "Security"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                        lineNumber: 852,
+                                                                        lineNumber: 847,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 852,
+                                                                    lineNumber: 847,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                            lineNumber: 849,
+                                                            lineNumber: 844,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2322,7 +2311,7 @@ function Home() {
                                                                     children: "Get security tips & updates"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 855,
+                                                                    lineNumber: 850,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2335,7 +2324,7 @@ function Home() {
                                                                             className: "flex-1 px-3 py-2 rounded-lg bg-white/5 border border-white/10 text-sm text-gray-200 focus:outline-none"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                            lineNumber: 857,
+                                                                            lineNumber: 852,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
@@ -2343,31 +2332,31 @@ function Home() {
                                                                             children: "Join"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                            lineNumber: 863,
+                                                                            lineNumber: 858,
                                                                             columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                                    lineNumber: 856,
+                                                                    lineNumber: 851,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                            lineNumber: 854,
+                                                            lineNumber: 849,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                                    lineNumber: 847,
+                                                    lineNumber: 842,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                            lineNumber: 808,
+                                            lineNumber: 803,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2375,36 +2364,36 @@ function Home() {
                                             children: "(c) 2024 CyberSec-CLI - Made with care by security professionals"
                                         }, void 0, false, {
                                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                                            lineNumber: 868,
+                                            lineNumber: 863,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                                    lineNumber: 807,
+                                    lineNumber: 802,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/CyberSec-Main/pages/index.js",
-                            lineNumber: 377,
+                            lineNumber: 372,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/CyberSec-Main/pages/index.js",
-                    lineNumber: 373,
+                    lineNumber: 368,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                lineNumber: 371,
+                lineNumber: 366,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/CyberSec-Main/pages/index.js",
-        lineNumber: 352,
+        lineNumber: 347,
         columnNumber: 5
     }, this);
 }
@@ -2425,7 +2414,7 @@ const FaqItem = ({ faq, index })=>{
                         children: faq.question
                     }, void 0, false, {
                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                        lineNumber: 891,
+                        lineNumber: 886,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
@@ -2433,13 +2422,13 @@ const FaqItem = ({ faq, index })=>{
                         children: open ? '-' : '+'
                     }, void 0, false, {
                         fileName: "[project]/CyberSec-Main/pages/index.js",
-                        lineNumber: 892,
+                        lineNumber: 887,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                lineNumber: 884,
+                lineNumber: 879,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             open && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2448,18 +2437,17 @@ const FaqItem = ({ faq, index })=>{
                 children: faq.answer
             }, void 0, false, {
                 fileName: "[project]/CyberSec-Main/pages/index.js",
-                lineNumber: 895,
+                lineNumber: 890,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/CyberSec-Main/pages/index.js",
-        lineNumber: 883,
+        lineNumber: 878,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
-__turbopack_async_result__();
-} catch(e) { __turbopack_async_result__(e); } }, false);}),
+}),
 "[externals]/next/dist/shared/lib/no-fallback-error.external.js [external] (next/dist/shared/lib/no-fallback-error.external.js, cjs)", ((__turbopack_context__, module, exports) => {
 
 const mod = __turbopack_context__.x("next/dist/shared/lib/no-fallback-error.external.js", () => require("next/dist/shared/lib/no-fallback-error.external.js"));

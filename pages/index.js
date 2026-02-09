@@ -26,11 +26,6 @@ import {
 import { FiPlay, FiArrowRight, FiGithub, FiTwitter, FiExternalLink } from 'react-icons/fi';
 import { FaDiscord } from 'react-icons/fa';
 
-const DotScreenShader = dynamic(
-  () => import('../components/ui/dot-shader-background').then((mod) => mod.DotScreenShader),
-  { ssr: false }
-);
-
 // Navigation links
 const navItems = [
   { label: 'Features', href: '/features' },
@@ -458,7 +453,7 @@ export default function Home() {
         {/* Hero Section */}
         <section className="relative max-w-7xl mx-auto px-6 pt-24 pb-20 lg:pt-32" id="top">
           <div className="absolute inset-0 -z-10 opacity-70 pointer-events-none" aria-hidden="true">
-            <DotScreenShader />
+            <div className="fixed inset-0 bg-gradient-to-br from-slate-900 via-purple-900/20 to-slate-900" />
           </div>
           <motion.div style={{ y: heroParallax }} className="absolute -top-32 -right-32 h-72 w-72 bg-hero-radial blur-3xl" />
           <motion.div style={{ y: heroGlow }} className="absolute -bottom-40 -left-40 h-72 w-72 bg-glow-ring blur-3xl" />

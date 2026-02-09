@@ -1,0 +1,7 @@
+__turbopack_load_page_chunks__("/api-docs", [
+  "static/chunks/204138f9d56e9ba8.js",
+  "static/chunks/c53f9e9fca2b9885.js",
+  "static/chunks/fa708b3f5f2aeaaf.js",
+  "static/chunks/df8a4d99320c78b1.js",
+  "static/chunks/turbopack-1caab357f015c717.js"
+])

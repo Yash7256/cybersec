@@ -1,11 +1,13 @@
 {
-  "name": "every-ai-landing",
+  "name": "cybersec-landing",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next build && next export"
   },
   "dependencies": {
     "@react-three/drei": "^9.105.3",

@@ -1,7 +1,6 @@
 (globalThis.TURBOPACK_CHUNK_LISTS || (globalThis.TURBOPACK_CHUNK_LISTS = [])).push({
     script: typeof document === "object" ? document.currentScript : undefined,
     chunks: [
-  "static/chunks/CyberSec-Main_components_ui_dot-shader-background_tsx_6f7228d6._.js",
   "static/chunks/[root-of-the-server]__db4b3afa._.js",
   "static/chunks/eb20d_next_dist_compiled_9afa176a._.js",
   "static/chunks/eb20d_next_dist_shared_lib_d85abff9._.js",

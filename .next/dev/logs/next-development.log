@@ -1,4 +1,112 @@
-[00:00:00.694] Server  LOG     ✓ Ready in 445ms
-[00:00:04.576] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:04.576] Browser WARN    Image with src "/logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:00:01.255] Server  LOG     ✓ Ready in 933ms
+[00:00:10.120] Server  LOG     ○ Compiling / ...
+[00:00:10.987] Server  ERROR   ⨯ ./CyberSec-Main/pages/index.js
+Module not found: Can't resolve '../components/ui/dot-shader-background'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:10.988] Server  ERROR   ⨯ ./CyberSec-Main/pages/index.js
+Module not found: Can't resolve '../components/ui/dot-shader-background'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:11.011] Server  ERROR   ⨯ ./CyberSec-Main/pages/index.js:30:9
+Module not found: Can't resolve '../components/ui/dot-shader-background'
+  28 |
+  29 | const DotScreenShader = dynamic(
+> 30 |   () => import('../components/ui/dot-shader-background').then((mod) => mod.DotScreenShader),
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 |   { ssr: false }
+  32 | );
+  33 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:11.022] Server  ERROR   ⨯ ./CyberSec-Main/pages/index.js:30:9
+Module not found: Can't resolve '../components/ui/dot-shader-background'
+  28 |
+  29 | const DotScreenShader = dynamic(
+> 30 |   () => import('../components/ui/dot-shader-background').then((mod) => mod.DotScreenShader),
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 |   { ssr: false }
+  32 | );
+  33 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:11.043] Server  ERROR   ⨯ ./CyberSec-Main/pages/index.js:30:9
+Module not found: Can't resolve '../components/ui/dot-shader-background'
+  28 |
+  29 | const DotScreenShader = dynamic(
+> 30 |   () => import('../components/ui/dot-shader-background').then((mod) => mod.DotScreenShader),
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 |   { ssr: false }
+  32 | );
+  33 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:11.575] Browser ERROR   uncaughtError: Error: ./CyberSec-Main/pages/index.js:30:9
+Module not found: Can't resolve '../components/ui/dot-shader-background'
+  28 |
+  29 | const DotScreenShader = dynamic(
+> 30 |   () => import('../components/ui/dot-shader-background').then((mod) => mod.DotScreenShader),
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 |   { ssr: false }
+  32 | );
+  33 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:11.779] Browser ERROR   ./CyberSec-Main/pages/index.js:30:9
+Module not found: Can't resolve '../components/ui/dot-shader-background'
+  28 |
+  29 | const DotScreenShader = dynamic(
+> 30 |   () => import('../components/ui/dot-shader-background').then((mod) => mod.DotScreenShader),
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 |   { ssr: false }
+  32 | );
+  33 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:12.220] Browser ERROR   ./CyberSec-Main/pages/index.js:30:9
+Module not found: Can't resolve '../components/ui/dot-shader-background'
+  28 |
+  29 | const DotScreenShader = dynamic(
+> 30 |   () => import('../components/ui/dot-shader-background').then((mod) => mod.DotScreenShader),
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 |   { ssr: false }
+  32 | );
+  33 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:12.915] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:00:13.005] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:00:13.123] Server  LOG     ✓ Compiled in 245ms
+[00:00:13.481] Server  ERROR   ReferenceError: DotScreenShader is not defined
+[00:00:13.499] Server  ERROR   ⨯ ReferenceError: DotScreenShader is not defined
+[00:00:13.509] Server  ERROR   ⨯ ReferenceError: DotScreenShader is not defined
+[00:00:14.022] Browser ERROR   uncaughtError: ReferenceError: DotScreenShader is not defined
+[00:00:32.087] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:00:32.325] Server  LOG     ✓ Compiled in 152ms
+[00:00:32.331] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:00:32.383] Server  LOG     ✓ Compiled in 0ms
+[00:00:32.928] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:32.928] Browser WARN    Image with src "/logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading

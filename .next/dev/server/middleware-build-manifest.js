@@ -1,7 +1,6 @@
 globalThis.__BUILD_MANIFEST = {
   "pages": {
     "/": [
-      "static/chunks/CyberSec-Main_components_ui_dot-shader-background_tsx_6f7228d6._.js",
       "static/chunks/[root-of-the-server]__db4b3afa._.js",
       "static/chunks/eb20d_next_dist_compiled_9afa176a._.js",
       "static/chunks/eb20d_next_dist_shared_lib_d85abff9._.js",
@@ -18,7 +17,7 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/eb20d_react-icons_lib_esm_ceac3593._.js",
       "static/chunks/eb20d_dd5e1714._.js",
       "static/chunks/CyberSec-Main_pages_index_2da965e7._.js",
-      "static/chunks/turbopack-CyberSec-Main_pages_index_141c9e53._.js"
+      "static/chunks/turbopack-CyberSec-Main_pages_index_02b881d7._.js"
     ],
     "/_app": [
       "static/chunks/eb20d_next_dist_compiled_b66a4122._.js",
@@ -33,6 +32,21 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/[root-of-the-server]__a882b210._.css",
       "static/chunks/CyberSec-Main_pages__app_2da965e7._.js",
       "static/chunks/turbopack-CyberSec-Main_pages__app_311a35b9._.js"
+    ],
+    "/_error": [
+      "static/chunks/eb20d_next_dist_compiled_b66a4122._.js",
+      "static/chunks/eb20d_next_dist_shared_lib_9d44740e._.js",
+      "static/chunks/eb20d_next_dist_client_93442993._.js",
+      "static/chunks/eb20d_next_dist_92d6ffd0._.js",
+      "static/chunks/eb20d_next_error_10ee5de3.js",
+      "static/chunks/[next]_entry_page-loader_ts_3b54c605._.js",
+      "static/chunks/eb20d_react_241c4829._.js",
+      "static/chunks/eb20d_react-dom_cjs_react-dom_development_ad909f43.js",
+      "static/chunks/eb20d_react-dom_a2bdea04._.js",
+      "static/chunks/eb20d_d2f7e9e4._.js",
+      "static/chunks/[root-of-the-server]__dacda32a._.js",
+      "static/chunks/CyberSec-Main_pages__error_2da965e7._.js",
+      "static/chunks/turbopack-CyberSec-Main_pages__error_f1e1c4fc._.js"
     ]
   },
   "devFiles": [],
