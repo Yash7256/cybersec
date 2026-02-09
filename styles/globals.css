@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --cyber-bg: #0a0e27;
+  --cyber-bg-alt: #0d1117;
+  --cyber-purple: #a855f7;
+  --cyber-magenta: #c026d3;
+  --cyber-blue: #3b82f6;
+  --cyber-cyan: #06b6d4;
+  --cyber-orange: #f97316;
+  --cyber-border: rgba(255, 255, 255, 0.1);
+}
+
+html,body,#__next{height:100%;}
+body{
+  @apply bg-cyberNavy text-white font-sans;
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.glass{backdrop-filter: blur(10px); background-color: rgba(255,255,255,0.04);}
+.gradient-btn{background:linear-gradient(90deg,var(--from,#a855f7),var(--to,#3b82f6));}
+.btn-glow{box-shadow:0 10px 30px rgba(59,130,246,0.2)}
+
+.marquee-mask{mask-image:linear-gradient(to right, transparent, black 8%, black 92%, transparent);}
+
+/* Improved focus styles for accessibility */
+button:focus,
+a:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 2px solid #3B82F6;
+  outline-offset: 2px;
+}
+
+/* Better contrast for text */
+.text-gray-200 {
+  color: #E5E7EB; /* Increased contrast from default */
+}
+
+.text-gray-300 {
+  color: #D1D5DB; /* Increased contrast from default */
+}
+
+.text-gray-400 {
+  color: #9CA3AF; /* Increased contrast from default */
+}
+
+/* Improved form elements */
+input, textarea {
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Better typography */
+h1, h2, h3, h4, h5, h6 {
+  @apply font-heading font-bold;
+}
+
+/* Better link styles */
+a {
+  @apply transition-colors duration-200;
+}
+
+/* Improved animation performance */
+* {
+  will-change: auto;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0e27;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a855f7;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9333ea;
+}
+
+/* Background patterns */
+.bg-grid {
+  background-image:
+    linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px),
+    linear-gradient(to right, rgba(255,255,255,0.05) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.bg-dots {
+  background-image: radial-gradient(rgba(168,85,247,0.25) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.glow-border {
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.1), 0 0 30px rgba(168,85,247,0.25);
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #a855f7, #3b82f6);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.glass-panel {
+  background: rgba(12, 17, 32, 0.6);
+  border: 1px solid rgba(255,255,255,0.1);
+  backdrop-filter: blur(16px);
+}
