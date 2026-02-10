@@ -1,8 +1,10 @@
-# CyberSec-CLI Landing Page
+![CyberSec Logo](public/logo.png)
 
-A modern, responsive landing page for CyberSec-CLI - an AI-powered cybersecurity scanning platform that unifies security tools, threat intelligence, and automated analysis into a single, powerful interface.
+# CyberSec Landing Page
 
-![CyberSec-CLI](https://img.shields.io/badge/Next.js-16.1.1-000000?style=flat-square&logo=next.js)
+A modern, responsive landing page for CyberSec - an AI-powered cybersecurity scanning platform that unifies security tools, threat intelligence, and automated analysis into a single, powerful interface.
+
+![CyberSec](https://img.shields.io/badge/Next.js-16.1.1-000000?style=flat-square&logo=next.js)
 ![React](https://img.shields.io/badge/React-18.2.0-61DAFB?style=flat-square&logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0.0-3178C6?style=flat-square&logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4.7-06B6D4?style=flat-square&logo=tailwind-css)
@@ -26,7 +28,7 @@ A modern, responsive landing page for CyberSec-CLI - an AI-powered cybersecurity
 - **Performance Optimized**: Next.js optimizations with Turbopack support
 
 ### User Experience
-- **Terminal Demos**: Interactive typewriter effects showcasing CLI capabilities
+- **Terminal Demos**: Interactive typewriter effects showcasing command line capabilities
 - **Live Statistics**: Animated counters and real-time data visualization
 - **Multi-Pricing Tiers**: Flexible pricing options with annual/monthly toggle
 - **FAQ Section**: Expandable FAQ with smooth animations
@@ -124,7 +126,7 @@ npm run export
 ## 📁 Project Structure
 
 ```
-cybersec-landing/
+cybersec/
 ├── components/              # Reusable React components
 │   ├── Benefits.js          # Benefits showcase
 │   ├── Blog.js             # Blog section component
