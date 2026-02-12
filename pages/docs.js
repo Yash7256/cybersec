@@ -326,7 +326,7 @@ cybersec scan --target example.com --scan-type tcp --ports 1-1000`}</code>
               </div>
               {/* Footer bottom bar */}
               <div className="border-t border-white/10 text-center text-xs text-gray-400 py-6">
-                (c) 2024 CyberSec-CLI - Made with care by security professionals
+               © 2026 CyberSec-CLI - All rights reserved
               </div>
             </footer>
           </div>

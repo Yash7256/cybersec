@@ -3,9 +3,12 @@ import Image from 'next/image'
 const Footer = ()=> (
   <footer className="py-12 border-t border-[#111827] mt-12">
     <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-6">
-      <div>
+      <div className="flex items-center gap-2">
+        <div className="h-6 w-6">
+          <img src="/1.gif" alt="Animation" className="w-full h-full object-cover rounded" />
+        </div>
         <Image src="/logo.svg" alt="CyberSec" width={140} height={36} />
-        <div className="text-gray-400 text-sm mt-3">Copyright © 2024 Every Labs. All rights reserved</div>
+        <div className="text-gray-400 text-sm mt-3">© 2026 CyberSec-CLI - All rights reserved</div>
       </div>
       <div className="grid grid-cols-2 gap-4 md:justify-self-center">
         <div>

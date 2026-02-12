@@ -3,6 +3,7 @@ import Image from 'next/image';
 import dynamic from 'next/dynamic';
 import { useEffect, useMemo, useState, useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
+import { HeroScrollDemo } from '../components/hero-scroll-demo';
 import {
   HiBars3,
   HiXMark,
@@ -107,58 +108,6 @@ const steps = [
     title: 'Get Insights',
     description: 'Actionable security recommendations delivered instantly.',
     icon: HiOutlineLightBulb
-  }
-];
-
-// Use cases
-const useCases = [
-  {
-    title: 'Penetration Testers',
-    description: 'Streamline reconnaissance and reporting workflows.',
-    icon: HiOutlineBugAnt
-  },
-  {
-    title: 'DevSecOps Teams',
-    description: 'Integrate scanning into CI/CD pipelines with APIs.',
-    icon: HiOutlineCodeBracket
-  },
-  {
-    title: 'Security Researchers',
-    description: 'Discover vulnerabilities faster with AI analysis.',
-    icon: HiOutlineBeaker
-  },
-  {
-    title: 'System Admins',
-    description: 'Monitor infrastructure continuously and proactively.',
-    icon: HiOutlineServer
-  }
-];
-
-// Pricing tiers
-const pricing = [
-  {
-    name: 'FREE / Community',
-    price: 0,
-    description: 'For personal exploration and open source enthusiasts.',
-    features: ['10 scans/day', 'Basic port scanning', 'Community support'],
-    cta: 'Get Started',
-    highlight: false
-  },
-  {
-    name: 'PRO',
-    price: 29,
-    description: 'For professional security teams scaling fast.',
-    features: ['Unlimited scans', 'AI vulnerability analysis', 'Priority support', 'API access', 'Scan history (90 days)'],
-    cta: 'Start Free Trial',
-    highlight: true
-  },
-  {
-    name: 'ENTERPRISE',
-    price: null,
-    description: 'For organizations with advanced security needs.',
-    features: ['Everything in Pro', 'White-label option', 'Dedicated support', 'Custom integrations', 'SLA guarantees'],
-    cta: 'Contact Sales',
-    highlight: false
   }
 ];
 
@@ -320,7 +269,7 @@ export default function Home() {
   // UI state
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const [billing, setBilling] = useState('monthly');
+
   // Scroll-based parallax for hero glows
   const { scrollY } = useScroll();
   const heroParallax = useTransform(scrollY, [0, 600], [0, -120]);
@@ -334,14 +283,7 @@ export default function Home() {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
-  // Pricing toggle display logic
-  const pricingDisplay = useMemo(() => {
-    return pricing.map((plan) => {
-      if (plan.price === null) return plan;
-      const adjusted = billing === 'annual' ? Math.round(plan.price * 0.8) : plan.price;
-      return { ...plan, displayPrice: adjusted };
-    });
-  }, [billing]);
+
 
   return (
     <div className="min-h-screen bg-[#070a18] text-white">
@@ -359,11 +301,11 @@ export default function Home() {
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://cybersec-cli.com" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" type="image/png" />
       </Head>
 
       {/* Outer page container (boundary panel wrapper) */}
-      <div className="relative max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div className="relative max-w-[100rem] mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Rounded boundary panel */}
         <div className="relative rounded-[34px] border border-purple-500/40 bg-[#0b1024]/95 shadow-[0_0_60px_rgba(168,85,247,0.2)] overflow-hidden">
           {/* Background grid + dots */}
@@ -376,8 +318,11 @@ export default function Home() {
                 scrolled ? 'backdrop-blur-xl bg-[#0b1024]/80 border-b border-white/10' : 'bg-transparent'
               }`}
             >
-              <nav className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between" aria-label="Primary">
-                <div className="flex items-center">
+              <nav className="max-w-7xl mx-auto px-6 py-2 flex items-center justify-between" aria-label="Primary">
+                <div className="flex items-center gap-4">
+                  <div className="h-8 w-8 -mt-5">
+                    <img src="/1.gif" alt="Animation" className="w-full h-full object-cover rounded-lg" />
+                  </div>
                   <div className="h-52 w-52 grid place-items-center">
                     <Image src="/logo.png" alt="CyberSec logo" width={200} height={200} />
                   </div>
@@ -399,13 +344,13 @@ export default function Home() {
                 <div className="hidden lg:flex items-center gap-4">
                   <a
                     href="/dashboard"
-                    className="px-5 py-2 rounded-full border border-white/20 text-sm text-gray-200 hover:border-white/40 hover:text-white transition-all"
+                    className="px-6 py-3 rounded-full border border-white/20 text-sm text-gray-200 hover:border-white/40 hover:text-white transition-all"
                   >
                     Dashboard
                   </a>
                   <a
                     href="#cta"
-                    className="px-5 py-2 rounded-full text-sm font-semibold bg-purple-blue hover:shadow-glow transition-all"
+                    className="px-6 py-3 rounded-full text-sm font-semibold bg-purple-blue hover:shadow-glow transition-all"
                   >
                     Get Started
                   </a>
@@ -451,7 +396,7 @@ export default function Home() {
 
             <main className="relative overflow-hidden">
         {/* Hero Section */}
-        <section className="relative max-w-7xl mx-auto px-6 pt-24 pb-20 lg:pt-32" id="top">
+        <section className="relative max-w-7xl mx-auto px-6 pt-16 pb-10 lg:pt-24" id="top">
           <div className="absolute inset-0 -z-10 opacity-70 pointer-events-none" aria-hidden="true">
             <div className="fixed inset-0 bg-gradient-to-br from-slate-900 via-purple-900/20 to-slate-900" />
           </div>
@@ -490,11 +435,15 @@ export default function Home() {
               </div>
             </FadeIn>
           </div>
+</section>
+
+        {/* Live Demo with Scroll Animation */}
+        <section className="max-w-7xl mx-auto px-6 py-0 mb-0 -mt-20" id="demo">
+          <HeroScrollDemo />
         </section>
 
-
         {/* Features */}
-        <section className="max-w-7xl mx-auto px-6 py-20" id="features">
+        <section className="max-w-7xl mx-auto px-6 py-10" id="features">
           <FadeIn>
             <div className="text-center mb-12">
               <p className="text-sm uppercase tracking-[0.4em] text-cyan-300">Features</p>
@@ -549,132 +498,9 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Live Demo */}
-        <section className="max-w-7xl mx-auto px-6 py-20" id="demo">
-          <FadeIn>
-            <div className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] items-center">
-              <div>
-                <p className="text-sm uppercase tracking-[0.4em] text-cyan-300">Live Demo</p>
-                <h2 className="text-3xl md:text-4xl font-heading mt-4">Watch the CLI in action</h2>
-                <p className="text-gray-300 mt-4">
-                  Experience the speed of CyberSec-CLI. Scan targets, stream results, and receive AI insights in real time.
-                </p>
-                <button className="mt-6 px-6 py-3 rounded-full bg-purple-blue font-semibold flex items-center gap-2 hover:shadow-glow transition-all">
-                  Try Interactive Demo <FiArrowRight />
-                </button>
-              </div>
-              <div className="glass-panel rounded-2xl p-5 border border-white/10 relative overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 via-transparent to-cyan-500/10" />
-                <div className="relative rounded-xl bg-[#0b122b] border border-white/10 p-6">
-                  <Typewriter lines={terminalLines.slice(0, 6)} speed={18} pause={420} />
-                </div>
-              </div>
-            </div>
-          </FadeIn>
-        </section>
 
-        {/* Use Cases */}
-        <section className="max-w-7xl mx-auto px-6 py-20" id="use-cases">
-          <FadeIn>
-            <div className="text-center mb-12">
-              <p className="text-sm uppercase tracking-[0.4em] text-cyan-300">Use Cases</p>
-              <h2 className="text-3xl md:text-4xl font-heading">Trusted by Security Professionals</h2>
-            </div>
-          </FadeIn>
-          <div className="flex gap-6 overflow-x-auto pb-4 md:grid md:grid-cols-4 md:overflow-visible">
-            {useCases.map((useCase, index) => {
-              const Icon = useCase.icon;
-              return (
-                <FadeIn key={useCase.title} delay={index * 0.1}>
-                  <div className="min-w-[240px] md:min-w-0 glass-panel rounded-2xl p-6 border border-white/10 hover:border-purple-500/40 transition-all">
-                    <Icon className="h-8 w-8 text-cyberCyan" />
-                    <h3 className="text-lg font-semibold mt-4">{useCase.title}</h3>
-                    <p className="text-sm text-gray-300 mt-2">{useCase.description}</p>
-                  </div>
-                </FadeIn>
-              );
-            })}
-          </div>
-        </section>
 
-        {/* Pricing */}
-        <section className="max-w-7xl mx-auto px-6 py-20" id="pricing">
-          <FadeIn>
-            <div className="text-center mb-10">
-              <p className="text-sm uppercase tracking-[0.4em] text-cyan-300">Pricing</p>
-              <h2 className="text-3xl md:text-4xl font-heading">Choose Your Plan</h2>
-            </div>
-          </FadeIn>
 
-          <div className="flex items-center justify-center gap-4 mb-10">
-            <span className={`text-sm ${billing === 'monthly' ? 'text-white' : 'text-gray-400'}`}>Monthly</span>
-            <button
-              type="button"
-              className="relative h-7 w-14 rounded-full bg-white/10 border border-white/20"
-              aria-label="Toggle billing"
-              onClick={() => setBilling((prev) => (prev === 'monthly' ? 'annual' : 'monthly'))}
-            >
-              <span
-                className={`absolute top-0.5 h-5 w-5 rounded-full bg-purple-blue transition-transform ${
-                  billing === 'annual' ? 'translate-x-7' : 'translate-x-1'
-                }`}
-              />
-            </button>
-            <span className={`text-sm ${billing === 'annual' ? 'text-white' : 'text-gray-400'}`}>
-              Annual <span className="text-cyan-300">(save 20%)</span>
-            </span>
-          </div>
-
-          <div className="grid gap-6 lg:grid-cols-3">
-            {pricingDisplay.map((plan, index) => (
-              <FadeIn key={plan.name} delay={index * 0.08}>
-                <div
-                  className={`rounded-2xl p-[1px] ${
-                    plan.highlight ? 'bg-gradient-to-r from-purple-500 to-cyan-400' : 'bg-white/10'
-                  }`}
-                >
-                  <div className="glass-panel rounded-2xl p-6 h-full flex flex-col">
-                    {plan.highlight && (
-                      <span className="text-xs uppercase tracking-[0.3em] text-cyan-200">Most Popular</span>
-                    )}
-                    <h3 className="text-lg font-semibold mt-4">{plan.name}</h3>
-                    <p className="text-sm text-gray-300 mt-2">{plan.description}</p>
-                    <div className="mt-6">
-                      {plan.price === null ? (
-                        <p className="text-3xl font-heading">Custom</p>
-                      ) : (
-                        <p className="text-3xl font-heading">
-                          ${plan.displayPrice}
-                          <span className="text-sm text-gray-400">/month</span>
-                        </p>
-                      )}
-                      {billing === 'annual' && plan.price !== null && (
-                        <p className="text-xs text-gray-400 mt-1">Billed annually</p>
-                      )}
-                    </div>
-                    <ul className="mt-6 space-y-3 text-sm text-gray-300">
-                      {plan.features.map((feature) => (
-                        <li key={feature} className="flex items-center gap-2">
-                          <HiOutlineCheckCircle className="h-5 w-5 text-cyan-300" />
-                          {feature}
-                        </li>
-                      ))}
-                    </ul>
-                    <button
-                      className={`mt-8 px-4 py-2 rounded-full font-semibold transition-all ${
-                        plan.highlight
-                          ? 'bg-purple-blue hover:shadow-glow'
-                          : 'border border-white/20 hover:border-white/40'
-                      }`}
-                    >
-                      {plan.cta}
-                    </button>
-                  </div>
-                </div>
-              </FadeIn>
-            ))}
-          </div>
-        </section>
 
         {/* Docs & API */}
         <section className="max-w-7xl mx-auto px-6 py-20" id="docs">
@@ -700,49 +526,7 @@ export default function Home() {
           </FadeIn>
         </section>
 
-        {/* Technical Trust */}
-        <section className="max-w-7xl mx-auto px-6 py-20" id="trust">
-          <FadeIn>
-            <div className="text-center mb-12">
-              <p className="text-sm uppercase tracking-[0.4em] text-cyan-300">Infrastructure</p>
-              <h2 className="text-3xl md:text-4xl font-heading">Built on Modern, Secure Infrastructure</h2>
-            </div>
-          </FadeIn>
-          <div className="grid gap-8 lg:grid-cols-[1fr_0.9fr]">
-            <div className="glass-panel rounded-2xl p-6 border border-white/10">
-              <p className="text-sm text-gray-400">Technology Stack</p>
-              <div className="mt-4 flex flex-wrap gap-3">
-                {techStack.map((tech) => (
-                  <span key={tech} className="px-3 py-2 rounded-full border border-white/10 bg-white/5 text-sm">
-                    {tech}
-                  </span>
-                ))}
-              </div>
-              <div className="mt-6 flex flex-wrap gap-3">
-                {badges.map((badge) => (
-                  <span key={badge} className="px-3 py-2 rounded-full bg-cyan-500/10 text-cyan-200 text-xs">
-                    {badge}
-                  </span>
-                ))}
-              </div>
-            </div>
-            <div className="glass-panel rounded-2xl p-6 border border-white/10 flex flex-col justify-between">
-              <div>
-                <p className="text-sm text-gray-400">Open Source Momentum</p>
-                <h3 className="text-4xl font-heading mt-4">1.2K stars</h3>
-                <p className="text-sm text-gray-300 mt-2">Join a thriving GitHub community building secure tooling.</p>
-              </div>
-              <a
-                className="mt-6 px-4 py-2 rounded-full border border-white/20 text-sm flex items-center gap-2 w-fit"
-                href="https://github.com"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Visit GitHub <FiGithub />
-              </a>
-            </div>
-          </div>
-        </section>
+
 
         {/* Stats */}
         <section className="max-w-7xl mx-auto px-6 py-20" id="stats">
@@ -861,7 +645,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="border-t border-white/10 text-center text-xs text-gray-400 py-6">
-                (c) 2024 CyberSec-CLI - Made with care by security professionals
+               © 2026 CyberSec-CLI - All rights reserved
               </div>
             </footer>
           </div>
