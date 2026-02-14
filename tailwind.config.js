@@ -82,16 +82,17 @@ module.exports = {
   				'monospace'
   			]
   		},
-  		boxShadow: {
-  			glow: '0 0 30px rgba(168, 85, 247, 0.35)',
-  			cyan: '0 0 24px rgba(6, 182, 212, 0.35)',
-  			card: '0 20px 60px rgba(6, 12, 28, 0.55)'
-  		},
-  		backgroundImage: {
-  			'purple-blue': 'linear-gradient(90deg, rgba(168,85,247,0.9), rgba(59,130,246,0.9))',
-  			'hero-radial': 'radial-gradient(circle at top, rgba(168,85,247,0.25), transparent 55%)',
-  			'glow-ring': 'radial-gradient(circle, rgba(168,85,247,0.25), transparent 70%)'
-  		},
+   		boxShadow: {
+   			glow: '0 0 30px rgba(139,92,246, 0.5)',
+   			cyan: '0 0 24px rgba(6, 182, 212, 0.35)',
+   			card: '0 20px 60px rgba(6, 12, 28, 0.55)'
+   		},
+   		backgroundImage: {
+   			'purple-blue': 'linear-gradient(90deg, rgba(168,85,247,0.9), rgba(59,130,246,0.9))',
+   			'hero-radial': 'radial-gradient(circle at top, rgba(168,85,247,0.25), transparent 55%)',
+   			'glow-ring': 'radial-gradient(circle, rgba(168,85,247,0.25), transparent 70%)',
+   			'cta-gradient': 'linear-gradient(90deg, #C4B5FD, #94A3B8)'
+   		},
   		keyframes: {
   			float: {
   				'0%': {

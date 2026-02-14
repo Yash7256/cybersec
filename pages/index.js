@@ -1,9 +1,8 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import dynamic from 'next/dynamic';
 import { useEffect, useMemo, useState, useRef } from 'react';
-import { motion, useScroll, useTransform } from 'framer-motion';
-import { HeroScrollDemo } from '../components/hero-scroll-demo';
+import { motion } from 'framer-motion';
+import { HeroSection } from '../components/ui/hero-1';
 import {
   HiBars3,
   HiXMark,
@@ -151,19 +150,6 @@ const faqs = [
   }
 ];
 
-// Terminal demo lines
-const terminalLines = [
-  '$ cybersec scan --target 192.168.1.0/24',
-  '[ok] 256 hosts discovered',
-  '[ok] 42 open ports found',
-  '[live] Streaming results...',
-  '22/tcp   open  ssh     OpenSSH 8.9p1',
-  '80/tcp   open  http    nginx 1.24.0',
-  '443/tcp  open  https   nginx 1.24.0',
-  '[ai] Insight: Upgrade OpenSSH to 9.3 to patch CVE-2024-6387',
-  '[ok] Report generated: report_2024-12-03.json'
-];
-
 // Section fade-in helper
 const FadeIn = ({ children, delay = 0 }) => (
   <motion.div
@@ -175,41 +161,6 @@ const FadeIn = ({ children, delay = 0 }) => (
     {children}
   </motion.div>
 );
-
-// Terminal typing animation
-const Typewriter = ({ lines, speed = 24, pause = 600 }) => {
-  const [lineIndex, setLineIndex] = useState(0);
-  const [charIndex, setCharIndex] = useState(0);
-
-  useEffect(() => {
-    if (lineIndex >= lines.length) return;
-
-    const currentLine = lines[lineIndex];
-    const isLineComplete = charIndex >= currentLine.length;
-
-    const timeout = setTimeout(() => {
-      if (isLineComplete) {
-        setLineIndex((prev) => prev + 1);
-        setCharIndex(0);
-      } else {
-        setCharIndex((prev) => prev + 1);
-      }
-    }, isLineComplete ? pause : speed);
-
-    return () => clearTimeout(timeout);
-  }, [charIndex, lineIndex, lines, pause, speed]);
-
-  const visibleLines = lines.slice(0, lineIndex);
-  const currentLine = lines[lineIndex]?.slice(0, charIndex) ?? '';
-  const output = [...visibleLines, currentLine].join('\n');
-
-  return (
-    <pre className="text-sm leading-relaxed text-cyan-200 font-mono whitespace-pre-wrap">
-      {output}
-      {lineIndex < lines.length && <span className="animate-pulse">|</span>}
-    </pre>
-  );
-};
 
 // Count-up stat animation
 const CountUp = ({ value, suffix = '', prefix = '', decimals = 0 }) => {
@@ -269,11 +220,6 @@ export default function Home() {
   // UI state
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-
-  // Scroll-based parallax for hero glows
-  const { scrollY } = useScroll();
-  const heroParallax = useTransform(scrollY, [0, 600], [0, -120]);
-  const heroGlow = useTransform(scrollY, [0, 600], [0, 140]);
 
   // Sticky nav background on scroll
   useEffect(() => {
@@ -344,13 +290,13 @@ export default function Home() {
                 <div className="hidden lg:flex items-center gap-4">
                   <a
                     href="/dashboard"
-                    className="px-6 py-3 rounded-full border border-white/20 text-sm text-gray-200 hover:border-white/40 hover:text-white transition-all"
+                    className="px-6 py-3 rounded-[10px] border border-white/20 text-sm text-gray-200 hover:border-white/40 hover:text-white transition-all"
                   >
                     Dashboard
                   </a>
                   <a
                     href="#cta"
-                    className="px-6 py-3 rounded-full text-sm font-semibold bg-purple-blue hover:shadow-glow transition-all"
+                    className="px-6 py-3 rounded-[10px] text-sm font-semibold bg-[#8B5CF6] hover:shadow-glow transition-all"
                   >
                     Get Started
                   </a>
@@ -370,7 +316,7 @@ export default function Home() {
 
               {menuOpen && (
                 <div id="mobile-menu" className="lg:hidden px-6 pb-6">
-                  <div className="glass-panel rounded-2xl p-4 flex flex-col gap-3 text-gray-200">
+                  <div className="glass-panel rounded-2xl p-4 flex flex-col gap-3 text-gray-200 hover:border-[#8B5CF6]/50 transition-all hover:shadow-[0_0_30px_rgba(139,92,246,0.5)]">
                     {navItems.map((item) => (
                       <a
                         key={item.label}
@@ -382,10 +328,10 @@ export default function Home() {
                       </a>
                     ))}
                     <div className="pt-4 flex flex-col gap-3">
-                      <a href="/dashboard" className="px-4 py-2 rounded-full border border-white/20 text-center">
+                      <a href="/dashboard" className="px-4 py-2 rounded-[10px] border border-white/20 text-center">
                         Dashboard
                       </a>
-                      <a href="#cta" className="px-4 py-2 rounded-full text-center bg-purple-blue">
+                      <a href="#cta" className="px-4 py-2 rounded-[10px] text-center bg-[#8B5CF6]">
                         Get Started
                       </a>
                     </div>
@@ -396,58 +342,13 @@ export default function Home() {
 
             <main className="relative overflow-hidden">
         {/* Hero Section */}
-        <section className="relative max-w-7xl mx-auto px-6 pt-16 pb-10 lg:pt-24" id="top">
-          <div className="absolute inset-0 -z-10 opacity-70 pointer-events-none" aria-hidden="true">
-            <div className="fixed inset-0 bg-gradient-to-br from-slate-900 via-purple-900/20 to-slate-900" />
-          </div>
-          <motion.div style={{ y: heroParallax }} className="absolute -top-32 -right-32 h-72 w-72 bg-hero-radial blur-3xl" />
-          <motion.div style={{ y: heroGlow }} className="absolute -bottom-40 -left-40 h-72 w-72 bg-glow-ring blur-3xl" />
-
-          <div className="grid gap-12 lg:grid-cols-[1.1fr_0.9fr] items-center">
-            <FadeIn>
-              <div className="space-y-6">
-                
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading leading-tight">
-                  Where AI and Security Intelligence <span className="text-gradient">Converge.</span>
-                </h1>
-                <p className="text-lg text-gray-300 max-w-xl">
-                  Unified cybersecurity ecosystem bringing all your tools, AI-powered defenses, and threat intelligence into one powerful platform.
-                </p>
-               
-              </div>
-            </FadeIn>
-
-            <FadeIn delay={0.1}>
-              <div className="glass-panel rounded-2xl p-5 glow-border relative overflow-hidden">
-                <div className="flex items-center justify-between text-xs text-gray-400 mb-4">
-                  <span>Terminal Preview</span>
-                  <span className="flex items-center gap-2">
-                    <span className="h-2 w-2 rounded-full bg-cyberPurple" />
-                    <span className="h-2 w-2 rounded-full bg-cyberBlue" />
-                    <span className="h-2 w-2 rounded-full bg-cyberCyan" />
-                  </span>
-                </div>
-                <div className="relative rounded-xl bg-[#0b122b] border border-white/10 p-5">
-                  <div className="absolute inset-x-0 top-0 h-20 bg-gradient-to-b from-white/5 to-transparent" />
-                  <Typewriter lines={terminalLines} />
-                  <div className="absolute -bottom-10 left-0 right-0 h-20 bg-gradient-to-t from-cyan-500/10 to-transparent" />
-                </div>
-              </div>
-            </FadeIn>
-          </div>
-</section>
-
-        {/* Live Demo with Scroll Animation */}
-        <section className="max-w-7xl mx-auto px-6 py-0 mb-0 -mt-20" id="demo">
-          <HeroScrollDemo />
-        </section>
+        <HeroSection />
 
         {/* Features */}
-        <section className="max-w-7xl mx-auto px-6 py-10" id="features">
+        <section className="max-w-7xl mx-auto px-6 py-16" id="features">
           <FadeIn>
             <div className="text-center mb-12">
-              <p className="text-sm uppercase tracking-[0.4em] text-cyan-300">Features</p>
-              <h2 className="text-3xl md:text-4xl font-heading">Built for Modern Security Teams</h2>
+              <h2 className="text-4xl md:text-5xl font-heading">Built for Modern Security Teams</h2>
             </div>
           </FadeIn>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -455,8 +356,7 @@ export default function Home() {
               const Icon = feature.icon;
               return (
                 <FadeIn key={feature.title} delay={index * 0.08}>
-                  <div className="glass-panel rounded-2xl p-6 border border-white/10 hover:border-purple-500/50 transition-all hover:shadow-glow">
-                    <Icon className="h-8 w-8 text-cyberPurple mb-4" />
+                  <div className="glass-panel rounded-2xl p-6 border border-white/10 hover:border-[#8B5CF6]/50 transition-all hover:shadow-[0_0_30px_rgba(139,92,246,0.5)]">
                     <h3 className="text-lg font-semibold">{feature.title}</h3>
                     <p className="text-sm text-gray-300 mt-2">{feature.description}</p>
                     <a href="#docs" className="mt-4 text-sm text-cyberCyan flex items-center gap-2 hover:text-white transition-colors">
@@ -470,11 +370,10 @@ export default function Home() {
         </section>
 
         {/* How It Works */}
-        <section className="max-w-7xl mx-auto px-6 py-20" id="how">
+        <section className="max-w-7xl mx-auto px-6 py-16" id="how">
           <FadeIn>
             <div className="text-center mb-12">
-              <p className="text-sm uppercase tracking-[0.4em] text-cyan-300">Workflow</p>
-              <h2 className="text-3xl md:text-4xl font-heading">Security Scanning in 3 Simple Steps</h2>
+              <h2 className="text-4xl md:text-5xl font-heading">Security Scanning in 3 Simple Steps</h2>
             </div>
           </FadeIn>
           <div className="relative grid gap-8 lg:grid-cols-3">
@@ -483,8 +382,8 @@ export default function Home() {
               const Icon = step.icon;
               return (
                 <FadeIn key={step.title} delay={index * 0.1}>
-                  <div className="glass-panel rounded-2xl p-6 border border-white/10 text-center">
-                    <div className="mx-auto h-12 w-12 rounded-full bg-purple-blue flex items-center justify-center text-lg font-semibold">
+                  <div className="glass-panel rounded-2xl p-6 border border-white/10 text-center hover:border-[#8B5CF6]/50 transition-all hover:shadow-[0_0_30px_rgba(139,92,246,0.5)]">
+                    <div className="mx-auto h-12 w-12 rounded-[10px] bg-[#8B5CF6] flex items-center justify-center text-lg font-semibold">
                       {index + 1}
                     </div>
                     <Icon className="h-8 w-8 text-cyberCyan mx-auto mt-4" />
@@ -503,17 +402,17 @@ export default function Home() {
 
 
         {/* Docs & API */}
-        <section className="max-w-7xl mx-auto px-6 py-20" id="docs">
+        <section className="max-w-7xl mx-auto px-6 py-16" id="docs">
           <FadeIn>
             <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
               <div>
                 <p className="text-sm uppercase tracking-[0.4em] text-cyan-300">Docs</p>
-                <h2 className="text-3xl md:text-4xl font-heading mt-4">Documentation built for teams</h2>
+                <h2 className="text-4xl md:text-5xl font-heading mt-4">Documentation built for teams</h2>
                 <p className="text-gray-300 mt-4">
                   Get started in minutes with clear guides, quickstart snippets, and deployment recipes for every stack.
                 </p>
               </div>
-              <div id="api" className="glass-panel rounded-2xl p-6 border border-white/10">
+              <div id="api" className="glass-panel rounded-2xl p-6 border border-white/10 hover:border-[#8B5CF6]/50 transition-all hover:shadow-[0_0_30px_rgba(139,92,246,0.5)]">
                 <h3 className="text-lg font-semibold">API &amp; SDKs</h3>
                 <p className="text-sm text-gray-300 mt-2">
                   Launch automated scans, stream results, and integrate insights into your workflows using REST and WebSocket APIs.
@@ -529,12 +428,12 @@ export default function Home() {
 
 
         {/* Stats */}
-        <section className="max-w-7xl mx-auto px-6 py-20" id="stats">
+        <section className="max-w-7xl mx-auto px-6 py-16" id="stats">
           <FadeIn>
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
               {stats.map((item) => (
                 <div key={item.label} className="glass-panel rounded-2xl p-6 border border-white/10 text-center">
-                  <div className="text-3xl font-heading text-white">
+                  <div className="text-4xl md:text-5xl font-heading text-white">
                     <CountUp
                       value={item.value}
                       suffix={item.suffix}
@@ -550,11 +449,11 @@ export default function Home() {
         </section>
 
         {/* FAQ */}
-        <section className="max-w-5xl mx-auto px-6 py-20" id="faq">
+        <section className="max-w-5xl mx-auto px-6 py-16" id="faq">
           <FadeIn>
             <div className="text-center mb-12">
               <p className="text-sm uppercase tracking-[0.4em] text-cyan-300">FAQ</p>
-              <h2 className="text-3xl md:text-4xl font-heading">Frequently Asked Questions</h2>
+              <h2 className="text-4xl md:text-5xl font-heading">Frequently Asked Questions</h2>
             </div>
           </FadeIn>
           <div className="space-y-4">
@@ -568,11 +467,11 @@ export default function Home() {
         <section className="max-w-7xl mx-auto px-6 pb-24" id="cta">
           <FadeIn>
             <div className="rounded-3xl p-10 md:p-16 bg-gradient-to-r from-purple-500/20 via-blue-500/10 to-cyan-500/20 border border-white/10 text-center">
-              <h2 className="text-3xl md:text-4xl font-heading">Ready to Secure Your Infrastructure?</h2>
+              <h2 className="text-4xl md:text-5xl font-heading">Ready to Secure Your Infrastructure?</h2>
               <p className="text-gray-300 mt-4">Join thousands of security professionals using CyberSec-CLI</p>
               <a
                 href="/dashboard"
-                className="mt-8 inline-flex items-center gap-2 px-8 py-4 rounded-full bg-purple-blue font-semibold text-lg hover:shadow-glow transition-all"
+                className="mt-8 inline-flex items-center gap-2 px-8 py-4 rounded-[10px] bg-[#8B5CF6] font-semibold text-lg hover:shadow-glow transition-all"
               >
                 Get Started for Free <FiArrowRight />
               </a>
@@ -591,15 +490,15 @@ export default function Home() {
                       <Image src="/logo.png" alt="CyberSec logo" width={200} height={200} />
                     </div>
                   </div>
-                  <p className="text-sm text-gray-400 mt-4">CyberSec-CLI helps teams uncover vulnerabilities faster with AI-powered scanning.</p>
+                  <p className="text-sm text-white mt-4">CyberSec-CLI helps teams uncover vulnerabilities faster with AI-powered scanning.</p>
                   <div className="flex items-center gap-3 mt-6">
-                    <a className="p-2 rounded-full border border-white/10" href="https://github.com" aria-label="GitHub">
+                    <a className="p-2 rounded-[10px] border border-white/10" href="https://github.com" aria-label="GitHub">
                       <FiGithub />
                     </a>
-                    <a className="p-2 rounded-full border border-white/10" href="https://twitter.com" aria-label="Twitter">
+                    <a className="p-2 rounded-[10px] border border-white/10" href="https://twitter.com" aria-label="Twitter">
                       <FiTwitter />
                     </a>
-                    <a className="p-2 rounded-full border border-white/10" href="https://discord.com" aria-label="Discord">
+                    <a className="p-2 rounded-[10px] border border-white/10" href="https://discord.com" aria-label="Discord">
                       <FaDiscord />
                     </a>
                   </div>
@@ -639,7 +538,7 @@ export default function Home() {
                         placeholder="Email address"
                         className="flex-1 px-3 py-2 rounded-lg bg-white/5 border border-white/10 text-sm text-gray-200 focus:outline-none"
                       />
-                      <button className="px-3 py-2 rounded-lg bg-purple-blue">Join</button>
+                      <button className="px-3 py-2 rounded-lg bg-[#8B5CF6]">Join</button>
                     </div>
                   </div>
                 </div>
@@ -659,7 +558,7 @@ const FaqItem = ({ faq, index }) => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="glass-panel rounded-2xl border border-white/10">
+    <div className="glass-panel rounded-2xl border border-white/10 hover:border-[#8B5CF6]/50 transition-all hover:shadow-[0_0_30px_rgba(139,92,246,0.5)]">
       <button
         type="button"
         className="w-full flex items-center justify-between p-5 text-left"

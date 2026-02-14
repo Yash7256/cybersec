@@ -116,13 +116,13 @@ export default function DocsPage() {
                 <div className="hidden lg:flex items-center gap-4">
                   <a
                     href="/dashboard"
-                    className="px-5 py-2 rounded-full border border-white/20 text-sm text-gray-200 hover:border-white/40 hover:text-white transition-all"
+                    className="px-5 py-2 rounded-[10px] border border-white/20 text-sm text-gray-200 hover:border-white/40 hover:text-white transition-all"
                   >
                     Dashboard
                   </a>
                   <a
                     href="/api-docs"
-                    className="px-5 py-2 rounded-full text-sm font-semibold bg-purple-blue hover:shadow-glow transition-all"
+                    className="px-5 py-2 rounded-[10px] text-sm font-semibold bg-[#8B5CF6] hover:shadow-glow transition-all"
                   >
                     API Docs
                   </a>
@@ -157,10 +157,10 @@ export default function DocsPage() {
                     ))}
                     <div className="pt-4 flex flex-col gap-3">
                       {/* Mobile CTA buttons */}
-                      <a href="/dashboard" className="px-4 py-2 rounded-full border border-white/20 text-center">
+                      <a href="/dashboard" className="px-4 py-2 rounded-[10px] border border-white/20 text-center">
                         Dashboard
                       </a>
-                      <a href="/api-docs" className="px-4 py-2 rounded-full text-center bg-purple-blue">
+                      <a href="/api-docs" className="px-4 py-2 rounded-[10px] text-center bg-[#8B5CF6]">
                         API Docs
                       </a>
                     </div>
@@ -182,13 +182,13 @@ export default function DocsPage() {
                     <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
                       <a
                         href="/api-docs"
-                        className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-purple-blue font-semibold hover:shadow-glow transition-all"
+                        className="inline-flex items-center gap-2 px-6 py-3 rounded-[10px] bg-[#8B5CF6] font-semibold hover:shadow-glow transition-all"
                       >
                         Explore API Docs <FiArrowRight />
                       </a>
                       <a
                         href="/features"
-                        className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-white/20 text-gray-200 hover:border-white/40 hover:text-white transition-all"
+                        className="inline-flex items-center gap-2 px-6 py-3 rounded-[10px] border border-white/20 text-gray-200 hover:border-white/40 hover:text-white transition-all"
                       >
                         View Features
                       </a>
@@ -271,7 +271,7 @@ cybersec scan --target example.com --scan-type tcp --ports 1-1000`}</code>
                     <p className="text-gray-300 mt-4">Our team can help you deploy CyberSec-CLI across your stack.</p>
                     <a
                       href="/api-docs"
-                      className="mt-8 inline-flex items-center gap-2 px-8 py-4 rounded-full bg-purple-blue font-semibold text-lg hover:shadow-glow transition-all"
+                      className="mt-8 inline-flex items-center gap-2 px-8 py-4 rounded-[10px] bg-[#8B5CF6] font-semibold text-lg hover:shadow-glow transition-all"
                     >
                       Read API Docs <FiArrowRight />
                     </a>
@@ -290,17 +290,17 @@ cybersec scan --target example.com --scan-type tcp --ports 1-1000`}</code>
                       <Image src="/logo.png" alt="CyberSec logo" width={200} height={200} />
                     </div>
                   </div>
-                  <p className="text-sm text-gray-400 mt-4">
+                  <p className="text-sm text-white mt-4">
                     CyberSec-CLI helps teams uncover vulnerabilities faster with AI-powered scanning.
                   </p>
                   <div className="flex items-center gap-3 mt-6">
-                    <a className="p-2 rounded-full border border-white/10" href="https://github.com" aria-label="GitHub">
+                    <a className="p-2 rounded-[10px] border border-white/10" href="https://github.com" aria-label="GitHub">
                       <FiGithub />
                     </a>
-                    <a className="p-2 rounded-full border border-white/10" href="https://twitter.com" aria-label="Twitter">
+                    <a className="p-2 rounded-[10px] border border-white/10" href="https://twitter.com" aria-label="Twitter">
                       <FiTwitter />
                     </a>
-                    <a className="p-2 rounded-full border border-white/10" href="https://discord.com" aria-label="Discord">
+                    <a className="p-2 rounded-[10px] border border-white/10" href="https://discord.com" aria-label="Discord">
                       <FaDiscord />
                     </a>
                   </div>

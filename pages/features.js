@@ -197,13 +197,13 @@ export default function FeaturesPage() {
                 <div className="hidden lg:flex items-center gap-4">
                   <a
                     href="/dashboard"
-                    className="px-5 py-2 rounded-full border border-white/20 text-sm text-gray-200 hover:border-white/40 hover:text-white transition-all"
+                    className="px-5 py-2 rounded-[10px] border border-white/20 text-sm text-gray-200 hover:border-white/40 hover:text-white transition-all"
                   >
                     Dashboard
                   </a>
                   <a
                     href="/#cta"
-                    className="px-5 py-2 rounded-full text-sm font-semibold bg-purple-blue hover:shadow-glow transition-all"
+                    className="px-5 py-2 rounded-[10px] text-sm font-semibold bg-[#8B5CF6] hover:shadow-glow transition-all"
                   >
                     Get Started
                   </a>
@@ -238,10 +238,10 @@ export default function FeaturesPage() {
                     ))}
                     <div className="pt-4 flex flex-col gap-3">
                       {/* Mobile CTA buttons */}
-                      <a href="/dashboard" className="px-4 py-2 rounded-full border border-white/20 text-center">
+                      <a href="/dashboard" className="px-4 py-2 rounded-[10px] border border-white/20 text-center">
                         Dashboard
                       </a>
-                      <a href="/#cta" className="px-4 py-2 rounded-full text-center bg-purple-blue">
+                      <a href="/#cta" className="px-4 py-2 rounded-[10px] text-center bg-[#8B5CF6]">
                         Get Started
                       </a>
                     </div>
@@ -264,7 +264,7 @@ export default function FeaturesPage() {
                     </p>
                     <a
                       href="/#pricing"
-                      className="mt-8 inline-flex items-center gap-2 px-6 py-3 rounded-full bg-purple-blue font-semibold hover:shadow-glow transition-all"
+                      className="mt-8 inline-flex items-center gap-2 px-6 py-3 rounded-[10px] bg-[#8B5CF6] font-semibold hover:shadow-glow transition-all"
                     >
                       View Pricing <FiArrowRight />
                     </a>
@@ -320,7 +320,7 @@ export default function FeaturesPage() {
                     <p className="text-gray-300 mt-4">Start scanning in minutes with the free community plan.</p>
                     <a
                       href="/dashboard"
-                      className="mt-8 inline-flex items-center gap-2 px-8 py-4 rounded-full bg-purple-blue font-semibold text-lg hover:shadow-glow transition-all"
+                      className="mt-8 inline-flex items-center gap-2 px-8 py-4 rounded-[10px] bg-[#8B5CF6] font-semibold text-lg hover:shadow-glow transition-all"
                     >
                       Get Started <FiArrowRight />
                     </a>
@@ -339,17 +339,17 @@ export default function FeaturesPage() {
                       <Image src="/logo.png" alt="CyberSec logo" width={200} height={200} />
                     </div>
                   </div>
-                  <p className="text-sm text-gray-400 mt-4">
+                  <p className="text-sm text-white mt-4">
                     CyberSec-CLI helps teams uncover vulnerabilities faster with AI-powered scanning.
                   </p>
                   <div className="flex items-center gap-3 mt-6">
-                    <a className="p-2 rounded-full border border-white/10" href="https://github.com" aria-label="GitHub">
+                    <a className="p-2 rounded-[10px] border border-white/10" href="https://github.com" aria-label="GitHub">
                       <FiGithub />
                     </a>
-                    <a className="p-2 rounded-full border border-white/10" href="https://twitter.com" aria-label="Twitter">
+                    <a className="p-2 rounded-[10px] border border-white/10" href="https://twitter.com" aria-label="Twitter">
                       <FiTwitter />
                     </a>
-                    <a className="p-2 rounded-full border border-white/10" href="https://discord.com" aria-label="Discord">
+                    <a className="p-2 rounded-[10px] border border-white/10" href="https://discord.com" aria-label="Discord">
                       <FaDiscord />
                     </a>
                   </div>

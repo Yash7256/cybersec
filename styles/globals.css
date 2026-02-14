@@ -39,15 +39,15 @@ select:focus {
 
 /* Better contrast for text */
 .text-gray-200 {
-  color: #E5E7EB; /* Increased contrast from default */
+  color: #E5E7EB;
 }
 
 .text-gray-300 {
-  color: #D1D5DB; /* Increased contrast from default */
+  color: #D1D5DB;
 }
 
 .text-gray-400 {
-  color: #9CA3AF; /* Increased contrast from default */
+  color: #9CA3AF;
 }
 
 /* Improved form elements */
